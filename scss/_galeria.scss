@@ -1,0 +1,38 @@
+  
+  a {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .contenedor {
+    display: grid;
+    grid-template-areas: none;
+  }
+  
+  .imgChica {
+    width: 140px;
+    height: 100px;
+    margin-left: 10px;
+  }
+  
+  .galeriaFlex {
+    width: 100%;
+    height: 100%;
+    margin: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .imagenFlex {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .fotoGaleria:hover {
+    filter: grayscale(90%);
+  }
+

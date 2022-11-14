@@ -1,0 +1,267 @@
+  a {
+      text-decoration: none;
+      margin-left: 15px;
+      margin-right: 15px;
+  }
+
+  .navbar-container {
+      text-align: right;
+      background-color: #1e35d8;
+      padding: 10px;
+      font-size: 18px;
+
+      ul {
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          display: inline-block;
+          vertical-align: middle;
+
+          li {
+              display: inline-block;
+              font-family: Okine;
+              font-size: 18px;
+
+              a {
+                  color: #fff;
+                  text-decoration: none;
+                  display: inline-block;
+                  padding: 10px;
+                  transition: color 0.5s;
+              }
+
+              .underline {
+                  height: 3px;
+                  background-color: transparent;
+                  width: 0%;
+                  transition: width 0.2s, background-color 0.5s;
+                  margin: 0 auto;
+              }
+
+              &:hover .underline {
+                  background-color: white;
+                  width: 100%;
+              }
+          }
+      }
+  }
+
+  h1 {
+    margin-left: 10px;
+  }
+  
+  h2 {
+      color: gray;
+      margin-left: 10px;
+  }
+
+  p {
+      color: black;
+  }
+
+  main {
+      background-color: white;
+  }
+
+  header {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      grid-area: header;
+  }
+
+  .footer-container {
+      text-align: center;
+      background-color: #1e35d8;
+      padding: 10px;
+      font-size: 18px;
+
+      ul {
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          display: inline-block;
+          vertical-align: middle;
+
+          li {
+              display: inline-block;
+              font-family: Okine;
+              font-size: 18px;
+
+              a {
+                  color: #fff;
+                  text-decoration: none;
+                  display: inline-block;
+                  padding: 10px;
+                  transition: color 0.5s;
+              }
+
+              .underline {
+                  height: 3px;
+                  background-color: transparent;
+                  width: 0%;
+                  transition: width 0.2s, background-color 0.5s;
+                  margin: 0 auto;
+              }
+
+              &:hover .underline {
+                  background-color: white;
+                  width: 100%;
+              }
+          }
+      }
+  }
+
+  .headerInicio {
+      background: url(../multimedia/portada1.jpg) no-repeat;
+      position: relative;
+      width: 100%;
+
+      height: 720px;
+      background-position: 0px;
+      margin: auto;
+  }
+
+  .portada {
+      width: 100%;
+  }
+
+  .headerTienda {
+      background: url(../multimedia/portada2.jpg) no-repeat;
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      background-position: 0px;
+      margin: auto;
+  }
+
+  .headerCanchas {
+      background: url(../multimedia/portada3.jpg) no-repeat;
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      background-position: 0px;
+      margin: auto;
+  }
+
+  .headerTop10 {
+      background: url(../multimedia/portada4.jpg) no-repeat;
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      background-position: 0px;
+      margin: auto;
+  }
+
+  .headerTutoriales {
+      background: url(../multimedia/portada5.jpg) no-repeat;
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      background-position: 0px;
+      margin: auto;
+  }
+
+  .headerProximoseventos {
+      background: url(../multimedia/portada6.jpg) no-repeat;
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      background-position: 0px;
+      margin: auto;
+  }
+
+  .headerGaleria {
+      background: url(../multimedia/portada8.jpg) no-repeat;
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      background-position: 0px;
+      margin: auto;
+  }
+
+  .headerContacto {
+      background: url(../multimedia/portada7.jpg) no-repeat;
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      background-position: 0px;
+      margin: auto;
+  }
+
+  @font-face {
+      font-family: Okine;
+      src: url(../fuentes/okine.ttf);
+  }
+
+  @font-face {
+      font-family: ESPN;
+      src: url(../fuentes/espn.ttf);
+  }
+
+  .tituloPrincipal {
+      font-family: ESPN;
+      font-weight: 100px;
+  }
+
+  .titulo2 {
+      font-family: ESPN;
+      font-weight: 80px;
+  }
+
+  .parrafo {
+      color: black;
+      font-family: Okine;
+      font-size: 16px;
+      margin-left: 10px;
+  }
+
+  .whatsapp {
+      display: scroll;
+      position: fixed;
+      bottom: 80px;
+      right: 0px;
+      height: 80px;
+      width: 160px;
+  }
+
+  footer p {
+      font-family: Okine;
+      color: white;
+      font-weight: 80px;
+  }
+
+  .centrado {
+      font-family: Okine;
+      font-weight: 80px;
+      background-color: black;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .container-fluid {
+    font-family: Okine;
+    text-align: left;
+    color: white;
+    font-size: 30px;
+  }
+
+  .fotoGaleria:hover {
+      filter: grayscale(90%);
+  }
+
+  .formulario {
+    text-align: center;
+    font-family: Okine;
+  }
+
+table {
+    text-align: center;
+}
+
+iframe {
+    margin-left: 30px;
+}
