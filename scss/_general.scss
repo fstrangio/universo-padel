@@ -4,11 +4,15 @@
       margin-right: 15px;
   }
 
+@mixin color-barra {
+    background-color: #1e35d8;
+    padding: 10px;
+    font-size: 18px;
+}
+
   .navbar-container {
       text-align: right;
-      background-color: #1e35d8;
-      padding: 10px;
-      font-size: 18px;
+      @include color-barra;
 
       ul {
           margin: 0;
@@ -72,9 +76,7 @@
 
   .footer-container {
       text-align: center;
-      background-color: #1e35d8;
-      padding: 10px;
-      font-size: 18px;
+      @include color-barra;
 
       ul {
           margin: 0;
