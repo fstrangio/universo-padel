@@ -18,8 +18,14 @@ a {
 }
 
 .imgChica {
-  width: 140px;
+  max-width: 140px;
   height: 100px;
+  margin-left: 10px;
+}
+
+.imgTienda {
+  width: 300px;
+  height: 300px;
   margin-left: 10px;
 }
 
@@ -262,9 +268,9 @@ header {
   display: scroll;
   position: fixed;
   bottom: 80px;
-  right: 0px;
-  height: 80px;
-  width: 160px;
+  right: 200px;
+  height: 20px;
+  width: 0px;
 }
 
 footer p {
@@ -298,6 +304,7 @@ footer p {
 .formulario {
   text-align: center;
   font-family: Okine;
+  padding-bottom: 10px;
 }
 
 table {
@@ -307,6 +314,12 @@ table {
 i {
   font-size: 40px;
   margin-right: 10px;
+}
+
+.botonEnviar {
+  background-color: #1e35d8;
+  font-family: Okine;
+  color: white;
 }
 
 /*# sourceMappingURL=estilo.css.map */
