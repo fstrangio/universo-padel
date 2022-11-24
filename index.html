@@ -18,41 +18,29 @@
 
 <body>
   <header>
-    <nav class="navbar-container">
-      <nav>
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">
+    <nav class="barraNavegacion" role="navigation">
+      <div class="marca">
+          <a class="marcaSitio" href="index.html">
             <img src="../multimedia/logo2.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
             Universo Pádel
           </a>
-        </div>
-      </nav>
-      <ul>
-        <li><a href="index.html">Inicio</a>
-          <div class="underline"></div>
-        </li>
-        <li><a href="html/tienda.html">Tienda</a>
-          <div class="underline"></div>
-        </li>
-        <li><a href="html/canchas.html">Canchas</a>
-          <div class="underline"></div>
-        </li>
-        <li><a href="html/top-10.html">Top 10</a>
-          <div class="underline"></div>
-        </li>
-        <li><a href="html/tutoriales.html">Tutoriales</a>
-          <div class="underline"></div>
-        </li>
-        <li><a href="html/proximos-eventos.html">Próximos eventos</a>
-          <div class="underline"></div>
-        </li>
-        <li><a href="html/galeria.html">Galería</a>
-          <div class="underline"></div>
-        </li>
-        <li><a href="html/contacto.html">Contacto</a>
-          <div class="underline"></div>
-        </li>
-      </ul>
+          <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <li><a href="index.html">Inicio</a>
+          <li><a href="/html/tienda.html">Tienda</a>
+          <li><a href="/html/canchas.html">Canchas</a>
+          <li><a href="/html/top-10.html">Top 10</a>
+          <li><a href="/html/tutoriales.html">Tutoriales</a>
+          <li><a href="/html/proximos-eventos.html">Próximos eventos</a>
+          <li><a href="/html/galeria.html">Galería</a>
+          <li><a href="/html/contacto.html">Contacto</a>
+        </ul>
+      </div>
+    </div>
     </nav>
   </header>
   <main>
@@ -77,49 +65,41 @@
     <div>
       <h2 class="titulo2">Comparten nuestra pasion</h2>
     </div>
-
-
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="multimedia/Adidas.png" class="d-block w-25 imgChica" alt="#">
-        </div>
-        <div class="carousel-item">
-          <img src="multimedia/Bullpadel.png" class="d-block w-25 imgChica" alt="#">
-        </div>
-        <div class="carousel-item">
-          <img src="multimedia/Head.png" class="d-block w-25 imgChica" alt="#">
-        </div>
-        <div class="carousel-item">
-          <img src="multimedia/Nox.png" class="d-block w-25 imgChica" alt="#">
-        </div>
-        <div class="carousel-item">
-          <img src="multimedia/Siux.png" class="d-block w-25 imgChica" alt="#">
-        </div>
-        <div class="carousel-item">
-          <img src="multimedia/Varlion.png" class="d-block w-25 imgChica" alt="#">
-        </div>
-        <div class="carousel-item">
-          <img src="multimedia/Wilson.png" class="d-block w-25 imgChica" alt="#">
-        </div>
-        <div class="carousel-item">
-          <img src="multimedia/WPA.png" class="d-block w-25 imgChica" alt="#">
+    <div class="sponsors">
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="../multimedia/Adidas.png" height="100" width="140" alt="Adidas" />
+          </div>
+          <div class="slide">
+            <img src="../multimedia/Bullpadel.png" height="100" width="140" alt="Bullpadel" />
+          </div>
+          <div class="slide">
+            <img src="../multimedia/Head.png" height="100" width="140" alt="Head" />
+          </div>
+          <div class="slide">
+            <img src="../multimedia/Nox.png" height="100" width="140" alt="Nox" />
+          </div>
+          <div class="slide">
+            <img src="../multimedia/Siux.png" height="100" width="140" alt="Siux" />
+          </div>
+          <div class="slide">
+            <img src="../multimedia/Varlion.png" height="100" width="140" alt="Varlion" />
+          </div>
+          <div class="slide">
+            <img src="../multimedia/Wilson.png" height="100" width="140" alt="Wilson" />
+          </div>
+          <div class="slide">
+            <img src="../multimedia/WPA.png" height="100" width="140" alt="Wolrd Padel Tour" />
+          </div>
         </div>
       </div>
     </div>
 
 
-    <h3>
-      <img class="imgChica" src="../multimedia/Adidas.png" alt="Adidas">
-      <img class="imgChica" src="../multimedia/Bullpadel.png" alt="Bullpadel">
-      <img class="imgChica" src="../multimedia/Head.png" alt="Head">
-      <img class="imgChica" src="../multimedia/Nox.png" alt="Nox">
-      <img class="imgChica" src="../multimedia/Siux.png" alt="Siux">
-      <img class="imgChica" src="../multimedia/Varlion.png" alt="Varlion">
-      <img class="imgChica" src="../multimedia/Wilson.png" alt="Wilson">
-      <img class="imgChica" src="../multimedia/WPA.png" alt="World Padel Tour">
-    </h3>
+
+
+
   </main>
   <footer class="footer-container">
     <p>Todos los derechos reservados</p>
