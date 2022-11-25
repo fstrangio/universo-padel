@@ -183,7 +183,7 @@ i {
 
 .sponsors {
   align-items: center;
-  display: grid;
+  display: flex;
   justify-content: center;
 }
 
@@ -192,7 +192,7 @@ i {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-1250px);
+    transform: translateX(-1750px);
   }
 }
 .slider {
@@ -201,14 +201,15 @@ i {
   height: 100px;
   margin: auto;
   overflow: hidden;
-  position: -ms-page;
-  max-width: 100%;
+  position: relative;
+  width: 100%;
 }
 .slider::before, .slider::after {
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 100px;
   position: absolute;
-  width: 100%;
+  width: 200px;
   z-index: 2;
 }
 .slider::after {
@@ -221,13 +222,13 @@ i {
   top: 0;
 }
 .slider .slide-track {
-  animation: scroll 40s linear infinite;
+  animation: scroll 30s linear infinite;
   display: flex;
-  width: 3500px;
+  width: 4000px;
 }
 .slider .slide {
   height: 100px;
-  width: 200px;
+  width: 250px;
 }
 
 .tabla2 {
@@ -236,7 +237,8 @@ i {
   width: 50%;
 }
 
-.tabla2 th, .tabla2 td {
+.tabla2 th,
+.tabla2 td {
   text-align: center;
   padding: 0.2em 0.5em;
   border: 1px solid black;
