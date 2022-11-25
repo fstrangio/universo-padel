@@ -90,78 +90,10 @@ header {
   grid-area: header;
 }
 
-.headerInicio {
-  background: url(../multimedia/portada1.jpg) no-repeat;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-position: 0px;
-  margin: auto;
-}
-
 .portada {
+  position: relative;
   width: 100%;
-}
-
-.headerTienda {
-  background: url(../multimedia/portada2.jpg) no-repeat;
-  position: relative;
-  width: 1280px;
-  height: 720px;
-  background-position: 0px;
-  margin: auto;
-}
-
-.headerCanchas {
-  background: url(../multimedia/portada3.jpg) no-repeat;
-  position: relative;
-  width: 1280px;
-  height: 720px;
-  background-position: 0px;
-  margin: auto;
-}
-
-.headerTop10 {
-  background: url(../multimedia/portada4.jpg) no-repeat;
-  position: relative;
-  width: 1280px;
-  height: 720px;
-  background-position: 0px;
-  margin: auto;
-}
-
-.headerTutoriales {
-  background: url(../multimedia/portada5.jpg) no-repeat;
-  position: relative;
-  width: 1280px;
-  height: 720px;
-  background-position: 0px;
-  margin: auto;
-}
-
-.headerProximoseventos {
-  background: url(../multimedia/portada6.jpg) no-repeat;
-  position: relative;
-  width: 1280px;
-  height: 720px;
-  background-position: 0px;
-  margin: auto;
-}
-
-.headerGaleria {
-  background: url(../multimedia/portada8.jpg) no-repeat;
-  position: relative;
-  width: 1280px;
-  height: 720px;
-  background-position: 0px;
-  margin: auto;
-}
-
-.headerContacto {
-  background: url(../multimedia/portada7.jpg) no-repeat;
-  position: relative;
-  width: 1280px;
-  height: 720px;
+  height: 500px;
   background-position: 0px;
   margin: auto;
 }
